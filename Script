@@ -12,4 +12,4 @@ getgenv().CamlockV3 = {
     HitPartMode = "Default",  -- Options: "Default", "Nearest Part"
     HitPart = "HumanoidRootPart",  -- Default hit part
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CamlockCC/sss/main/Source?token=GHSAT0AAAAAACU4LNDIQ52BMWCG5VZO466WZUVSB5Q")) ()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CamlockCC/sss/main/Source?token=GHSAT0AAAAAACU4LNDJBFM2H5WBKEJ6BOOQZUVTW5A")) ()
