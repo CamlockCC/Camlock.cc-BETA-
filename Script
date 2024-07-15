@@ -1,0 +1,15 @@
+getgenv().CamlockV3 = {
+    Key = Enum.KeyCode.E,
+    StickyMode = true,
+    Prediction = 0.133,
+    SmoothType = "Linear",-- "Linear" then "Linear" "Exponential" "Bounce" "Elastic"
+    PredictionType = "Vector3", -- Default or Vector3
+    PredictionX = 0.1144334312,
+    PredictionY = 0.101214113,
+    PredictionZ = 0.1149354135,
+    HitPartMode = "Default",  -- "Default" or "Nearest Part"
+    HitPart = "HumanoidRootPart",  -- Default hit part
+    Smooth = true,
+    SmoothValue = 0.034763647,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CamlockCC/sss/main/Source?token=GHSAT0AAAAAACU4LNDJFF5T775IW47QXGPUZUVR2RA")) ()
