@@ -4,12 +4,21 @@ getgenv().CamlockV3 = {
     Prediction = 0.133,
     Smooth = true,
     SmoothValue = 0.034763647,
-    SmoothType = "Linear",  -- Options: "Linear", "Exponential", "Bounce", "Elastic"
-    PredictionType = "Vector3",  -- Options: "Vector3", "Position"
+    SmoothType = "Linear", -- Linear, Exponential, Bounce, Elastic
+    PredictionType = "Vector3",-- Vector3 or Default
     PredictionX = 0.1144334312,
     PredictionY = 0.101214113,
     PredictionZ = 0.1149354135,
-    HitPartMode = "Default",  -- Options: "Default", "Nearest Part"
-    HitPart = "HumanoidRootPart",  -- Default hit part
+    HitPartMode = "Nearest Part", -- Default or Nearest Part
+    HitPart = "HumanoidRootPart",  -- Target part Default
+}
+
+local Settings = {
+    CFSpeed = {
+        Speed = 0.4,
+        Enabled = true,
+        Toggled = true,
+        Key = "Z"
+    },
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CamlockCC/sss/main/Source?token=GHSAT0AAAAAACU4LNDJBFM2H5WBKEJ6BOOQZUVTW5A")) ()
