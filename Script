@@ -21,5 +21,4 @@ local Settings = {
         Key = "Z"
     }
 }
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CamlockCC/sss/main/Source?token=GHSAT0AAAAAACU4LNDIO6F3AVQICPYPGYEWZU56T5A")) ()
